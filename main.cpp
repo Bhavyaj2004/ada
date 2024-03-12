@@ -5,7 +5,7 @@ int binary_search(int A[],int key,int imin,int imax){
     cout<<"Array is empty";
 }
 else if(key<imin || key>imax){
-    cout<<"Element not present in array list";
+    return -1; 
 }
 else{
    int imid =(imin+imax)/2;
@@ -31,7 +31,13 @@ int main()
  }
  cout<<"Enter the element you want to search";
  cin>>n;
- binary_search(A,n,0,4);
+int r= binary_search(A,n,0,4);
+    if(r!=-1){
+        cout<<"Eleement is prresent on <<r;
+            }
+    else{
+        cout<<"Element is not in array";
+            }
  return 0;
 }
 

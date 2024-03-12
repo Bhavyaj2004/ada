@@ -16,6 +16,8 @@ int binary(int array[],int s,int key){
     return 0;
 }
 int main(){
+    cout<<"Name-Bhavya Jain";
+    cout<<"Roll No.-43";
     int s;
     cout<<"Enter the size of array:";
     cin>>s;
